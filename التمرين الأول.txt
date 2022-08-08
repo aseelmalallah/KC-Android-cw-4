@@ -1,0 +1,48 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+	
+	for (int i=1;i<11;i++){
+	    
+	    System.out.println(i);
+	}
+	
+	
+	System.out.println(totalgrad(50,45));
+	
+	    temperature(20);
+	    
+
+	
+	}
+    
+ 
+    public static int totalgrad(int num1, int num2){
+     
+        return num1 + num2;
+       
+	}
+	
+	public static void temperature(int num1){
+	    
+
+
+	    if(num1>=23){
+	        
+	        String RESULT = "HOT";
+	        
+	            System.out.println(RESULT); 
+
+	    }else{
+	        String RESULT = "COLD";
+
+	            System.out.println(RESULT);
+  
+	    }
+	    
+	    
+	    
+	}
+	
+}
